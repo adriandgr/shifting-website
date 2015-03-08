@@ -30,7 +30,9 @@ li:first-child {
 li.pastMembers {
       margin-top: 0px;
 }
-
+li.menu {
+      margin-top: 0px;
+}
 a {
   color: #404040;
 }

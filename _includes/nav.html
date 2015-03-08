@@ -15,13 +15,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
+                <li class="menu">
                     <a href="{{ site.baseurl }}/">
                       <mark>&nbsp;Home&nbsp;</mark>
                     </a>
                 </li>
                 {% for page in site.pages %}{% if page.title %}
-                <li>
+                <li class="menu">
                     <a href="{{ page.url | prepend: site.baseurl }}">
                       <mark>&nbsp;{{ page.title }}&nbsp;</mark>
                     </a>
