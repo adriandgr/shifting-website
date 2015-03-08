@@ -174,6 +174,7 @@ hr.small {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
+    text-shadow: 1px 1px #FE4902,
   }
 }
 .intro-header .post-heading h1 {
