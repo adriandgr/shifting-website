@@ -26,6 +26,11 @@ li{
 li:first-child {
     margin-top:0;
 }
+
+li.pastMembers {
+      margin-top: 0px;
+}
+
 a {
   color: #404040;
 }
