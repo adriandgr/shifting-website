@@ -378,7 +378,7 @@ form .row:first-child .floating-label-form-group {
 }
 ::-moz-selection {
   color: white;
-  text-shadow: none;
+  text-shadow: 1px 1px #FE4902,
   background: #0085a1;
 }
 ::selection {
