@@ -23,6 +23,10 @@ li{
     margin-top: 10px;
 }
 
+.center-heading {
+  text-align: center;
+}
+
 li:first-child {
     margin-top:0;
 }
@@ -53,6 +57,12 @@ hr.small {
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
+}
+hr.small-dark {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 3px;
+  border-color: #404040;
 }
 .navbar-custom {
   background: white;
