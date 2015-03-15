@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      "Jenny Saville at the Gagosian Britannia"
 subtitle:   "An encounter with the painter's work"
