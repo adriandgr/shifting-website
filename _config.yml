@@ -14,3 +14,16 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+authors:
+  onzo:
+    display_name: Ridia Onzo
+    email: obj.art@onzo.ca
+    web: http://www.onzo.ca/
+    twitter: ONZOart
+    github: adriandgr
+  rhys:
+    display_name: Rhys Edwards
+    email: info@theshifting.ca
+    twitter: Rhy5Edwards
+    github: theShifting

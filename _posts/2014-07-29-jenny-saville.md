@@ -3,7 +3,7 @@ layout:     post
 title:      "Jenny Saville at the Gagosian Britannia"
 subtitle:   "An encounter with the painter's work"
 date:       2014-07-29 12:00:00
-author:     "Rhys Edwards"
+author:     rhys
 header-img: "img/articles/saville/post-bg.jpg"
 ---
 
