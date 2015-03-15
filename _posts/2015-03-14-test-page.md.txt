@@ -14,6 +14,14 @@ The paragraph still continues here.</p>
 
 dfbgdgnhfghf
 
+**this should be bolded**
+
+*this should be italicized*
+
+[This is a link](www.google.ca)
+
+<b>this is an html bold</b>
+
 
 
 fghfgghjghjghjghjg
