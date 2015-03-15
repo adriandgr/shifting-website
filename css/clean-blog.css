@@ -19,6 +19,24 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+li{
+    margin-top: 10px;
+}
+
+.center-heading {
+  text-align: center;
+}
+
+li:first-child {
+    margin-top:0;
+}
+
+li.pastMembers {
+      margin-top: 0px;
+}
+li.menu {
+      margin-top: 0px;
+}
 a {
   color: #404040;
 }
@@ -35,10 +53,16 @@ blockquote {
   font-style: italic;
 }
 hr.small {
-  max-width: 100px;
+  max-width: 150px;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
+}
+hr.small-dark {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 3px;
+  border-color: #404040;
 }
 .navbar-custom {
   background: white;
@@ -142,6 +166,8 @@ hr.small {
 .intro-header .page-heading {
   padding: 100px 0 50px;
   color: white;
+  text-shadow: 1px 1px #000,
+
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -172,6 +198,7 @@ hr.small {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
+    text-shadow: 1px 1px #FE4902,
   }
 }
 .intro-header .post-heading h1 {
@@ -376,7 +403,7 @@ form .row:first-child .floating-label-form-group {
 }
 ::-moz-selection {
   color: white;
-  text-shadow: none;
+  text-shadow: 1px 1px #FE4902,
   background: #0085a1;
 }
 ::selection {
