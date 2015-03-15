@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Problem with Jekyll"
+title:      "Jenny Saville at the Gagosian Britannia"
 subtitle:   "An encounter with the painter's work"
 date:       2015-03-12 12:00:00
 author:     onzo
