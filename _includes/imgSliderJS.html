@@ -3,7 +3,11 @@
 	<script src="{{ site.url }}/js/slider-1.4.0/ideal-image-slider.js"></script>
     <script src="{{ site.url }}/js/slider-1.4.0/extensions/captions/iis-captions.js"></script>
 	<script>
-	var slider = new IdealImageSlider.Slider('#slider');
+	var slider = new IdealImageSlider.Slider({
+    	selector: '#slider',
+    	height: 400, // Required but can be set by CSS
+    	interval: 4000,
+	});
     slider.addCaptions();
     slider.start();
 	</script>
