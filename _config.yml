@@ -4,6 +4,7 @@ header-img: img/home-bg.jpg
 email: info@theshifting.ca
 description: "We shift around Vancouver."
 url: "http://www.theshifting.ca"
+testing: "http://localhost:4000/"
 twitter_username: ShiftingCa
 github_username:  theShifting
 facebook_username:  TheShifting
