@@ -3,15 +3,18 @@ layout: page
 title: "Works"
 description: "A showcase of previous works connected to The Shifting"
 header-img: "img/works-bg.jpg"
+img_slider: true
 ---
 
-<h1>Recent Web Relocation</h1>
+<div id="slider">
+		<img src="{{ site.url }}/js/slider-1.4.0/example/img/1.jpg" data-src-2x="{{ site.url }}/js/slider-1.4.0/example/img/1@2x.jpg" title="Baloons" alt="This is the caption content" />
+		<img data-src="{{ site.url }}/js/slider-1.4.0/example/img/2.jpg" data-src-2x="{{ site.url }}/js/slider-1.4.0/example/img/2@2x.jpg" src="" title="Skateboard" alt="Captions <em>can</em> contain <strong>HTML</strong>" />
+		<img data-src="{{ site.url }}/js/slider-1.4.0/example/img/3.jpg" data-src-2x="{{ site.url }}/js/slider-1.4.0/example/img/3@2x.jpg" src="" alt="This will be overridden" data-caption="#caption-3" />
+		<img data-src="{{ site.url }}/js/slider-1.4.0/example/img/4.jpg" data-src-2x="{{ site.url }}/js/slider-1.4.0/example/img/4@2x.jpg" src="" title="A title without a caption" alt="" />
+        <img data-src="{{ site.url }}/js/slider-1.4.0/example/img/3.jpg" data-src-2x="{{ site.url }}/js/slider-1.4.0/example/img/4@2x.jpg" src="" title="Silly?" alt="A really really really really really really really really really really really really really really really really really really really really really really really really really long caption" />
+</div>
 
-<p>Dear virtual visitor,</p>
-
-<p>We recently re-designed this website to better reflect our evolving nature. Rather than have you suffer through a lot of bugs as we build a new database, we have opted to take down this page temporarily until it is ready for publication. We apologize for the inconvenience. We promise to put it all back!</p>
-
-<p>We thank you for you continued support and interest in our collective.</p>
-
-<p>Sincerely,<br />
-<em>The Shifting Team</em></p>
+    <div id="caption-3" style="display:none;">
+        <h3>External Caption</h3>
+        <p>When using <a href="#">HTML in captions</a> it might be better to use an external caption.</p>
+    </div>
