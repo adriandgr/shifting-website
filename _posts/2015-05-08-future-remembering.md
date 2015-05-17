@@ -4,12 +4,12 @@ title: "Future Remembering"
 subtitle: "Jeremy Shaw and David Hartt"
 date: 2015-05-08
 author: "Rhys Edwards"
-header-img: "img/articles/future remembering/Quickeners_4.jpg"
+header-img: "img/articles/future-remembering/Quickeners_4.jpg"
 ---
 
 
 
-<p>Why do we conceive of the future in the image of the past?</p>
+<p><strong>Why do we conceive of the future in the image of the past?</strong></p>
 
 <p>There is a nostalgic attitude we take towards representations of the future.</p> 
 
@@ -19,7 +19,15 @@ header-img: "img/articles/future remembering/Quickeners_4.jpg"
 
 <p>Retraux is less well documented in the art world. But two recent film installations in Vancouver art galleries invoked retraux imagery and mediums in their own representations of the future. At the Or Gallery was David Hartt's Adrift, a short 16mm film projection, while at the Contemporary Art Gallery, Jeremy Shaw's Quickeners appropriated mid-century stock documentary footage. Though the films and exhibitions were produced independently of each other, providentially, both artists shared in a similarly dystopic vision: the speculative notion of a future in which human beings are unable to avoid looking at, and re-performing, the past. The result is a re-configuration of the present moment, as perceived through the lens of a history which is itself projected into the future.</p>
 
-![Image of David Hartt's *Adrift*](img/articles/future remembering/Hartt-1C)
+<figure>
+  <a href="{{site.url}}/img/articles/future-remembering/hartt-1C.jpg" rel="shadowbox" title="David Hartt's Adrift">
+  <img src="{{site.url}}/img/articles/future-remembering/hartt-1C.jpg"></a>
+  <figcaption>
+    David Hartt: <br />
+    Adrift<br />
+    medium
+  </figcaption>
+</figure>
 
 <p>Set some time in the near future, David Hartt's Adrift follows a series of phone conversations between teenage protagonists Saini and Noah. Saini lives in New Nanumea, an (arcological)[http://en.wikipedia.org/wiki/Arcology] Tuvalese refugee community located on the shores of the Mississipi river in Missouri; we are led to understand that the entire population of Tuvalu has been evacuated after the Pacific island was completely submerged due to global warming. Over the course of the film, Saini conspires with Noah to escape the refugee community, and meet him in nearby St. Louis.</p>
 
