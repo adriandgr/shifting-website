@@ -1,62 +1,42 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
-<HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
-	<TITLE></TITLE>
-	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.1  (Win32)">
-	<META NAME="CREATED" CONTENT="0;0">
-	<META NAME="CHANGEDBY" CONTENT="Rhys  Edwards">
-	<META NAME="CHANGED" CONTENT="20150508;23380774">
-	<STYLE TYPE="text/css">
-	<!--
-		H2.cjk { font-family: "SimSun" }
-		H2.ctl { font-family: "Mangal" }
-		H3.cjk { font-family: "SimSun" }
-		H3.ctl { font-family: "Mangal" }
-	-->
-	</STYLE>
-</HEAD>
-<BODY LANG="en-CA" DIR="LTR">
-<P>--- layout: page description: &quot;We shift around Vancouver.&quot;
---- 
-</P>
-<H1>Shifting Texts</H1>
-<HR>
-<P>The members of The Shifting have set out to write on a variety of
-topics which reflect their personal encounters and attitudes towards
-art: from critique, to fictional narratives, and everything
-in-between. Below, you will find a feed of their latest posts:</P>
-<P>{% for post in paginator.posts %} 
-</P>
-<H2 CLASS="western"><A HREF="%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D">{{
-post.title }} </A>
-</H2>
-<P><A HREF="%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D">{%
-if post.subtitle %} </A>
-</P>
-<H3 CLASS="western"><A HREF="%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D">{{
-post.subtitle }} </A>
-</H3>
-<P><A HREF="%7B%7B%20post.url%20%7C%20prepend:%20site.baseurl%20%7D%7D">{%
-endif %} </A>
-</P>
-<P>Posted by {% if post.author %}{{ post.author }}{% else %}{{
-site.title }}{% endif %} on {{ post.date | date: &quot;%B %-d, %Y&quot;
-}}</P>
-<HR>
-<P>{% endfor %}<!-- Pager --> {% if paginator.total_pages &gt; 1 %} 
-</P>
-<UL>
-	<P STYLE="margin-bottom: 0cm">{% if paginator.previous_page %} 
-	</P>
-	<LI><P STYLE="margin-bottom: 0cm"><A HREF="%7B%7B%20paginator.previous_page_path%20%7C%20prepend:%20site.baseurl%20%7C%20replace:%20'//',%20'/'%20%7D%7D">&larr;
-	Newer Posts</A> {% endif %} {% if paginator.next_page %} 
-	</P>
-	<LI><P><A HREF="%7B%7B%20paginator.next_page_path%20%7C%20prepend:%20site.baseurl%20%7C%20replace:%20'//',%20'/'%20%7D%7D">Older
-	Posts &rarr;</A> {% endif %} 
-	</P>
-</UL>
-<P>{% endif %} 
-</P>
-</BODY>
-</HTML>
+---
+layout: page
+description: "We shift around Vancouver."
+---
+<span class="center-heading">
+  <h1>Shifting Texts</h1>
+</span>
+<hr class="small-dark">
+
+<p>The members of The Shifting have set out to write on a variety of topics which reflect their personal encounters and attitudes towards art: from critique, to fictional narratives, and everything in-between. Below, you will find a feed of their latest posts:</p>
+
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
