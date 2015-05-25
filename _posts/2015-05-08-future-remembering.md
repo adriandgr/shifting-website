@@ -23,9 +23,7 @@ header-img: "img/articles/future-remembering/quickeners4.jpg"
   <a href="{{site.url}}/img/articles/future-remembering/hartt-1C.jpg" rel="shadowbox" title="David Hartt's Adrift">
   <img src="{{site.url}}/img/articles/future-remembering/hartt-1C.jpg"></a>
   <figcaption>
-    David Hartt: <br />
-    Adrift<br />
-    medium
+    David Hartt, <em>Adrift</em>
   </figcaption>
 </figure>
 
