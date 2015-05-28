@@ -42,8 +42,6 @@ and I humbly ask them to welcome me amongst them.<br /><br />
 R.B.
 </blockquote> <br />
 
-<h3>CHAPTER ONE</h3>
-
 <p>Over one thousand years ago a magician called Merlin lived in Brittany.  He was young and beautiful; his eyes were lively and malicious, his smile a bit taunting, his hands fine; he had the grace of a dancer, the nonchalance of a cat, the spirit of a swallow. Time passed over him without a touch. He had the everlasting youth of the woods.</p>
 
 <p>He had powers, and only used them for good, or what he believed to be good. But sometimes he made a mistake, because though he was not ordinary, he was nevertheless human.</p>
