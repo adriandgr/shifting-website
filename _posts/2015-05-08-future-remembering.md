@@ -23,7 +23,9 @@ header-img: "img/articles/future-remembering/quickeners4.jpg"
   <a href="{{site.url}}/img/articles/future-remembering/hartt-1C.jpg" rel="shadowbox" title="David Hartt's Adrift">
   <img src="{{site.url}}/img/articles/future-remembering/hartt-1C.jpg"></a>
   <figcaption>
-    David Hartt, <em>Adrift</em>
+    <strong>David Hartt</strong> <br />
+    <em>Adrift</em>, 2015 <br />
+    16mm film projection
   </figcaption>
 </figure>
 
