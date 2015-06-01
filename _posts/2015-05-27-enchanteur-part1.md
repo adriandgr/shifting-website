@@ -4,7 +4,7 @@ title: "The Enchanter"
 subtitle: "Part One"
 date: 2015-05-27
 author: "Pauline Petit"
-header-img: "img/articles/enchanteur-part1/enchanteur-splash.jpg"
+header-img: "img/articles/enchanteur-part1/post-bg.jpg"
 ---
 
 <p>L'Enchanteur, <em>or The Enchanter, has been one of the most popular books in the Francophone world for three decades. With brilliant clarity, verve, and humour, author René Barjavel retells the famous legend of King Arthur and the Knights of the Round Table from the perspective of Arthur's companion and guide, Merlin the Enchanter. While faithfully and poetically capturing the breadth of Arthur's travails, Barjavel also provides a keen insight into the psychology of its characters.</em></p>
