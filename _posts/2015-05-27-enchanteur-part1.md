@@ -1,21 +1,21 @@
 ---
 layout: post
-title: "The Magician"
+title: "The Enchanter"
 subtitle: "Part One"
 date: 2015-05-27
 author: "Pauline Petit"
 header-img: "img/articles/enchanteur-part1/enchanteur-splash.jpg"
 ---
 
-<p>L'Enchanteur, <em>or The Magician</em>, has been one of the most popular books in the Francophone world for three decades. With brilliant clarity, verve, and humour, author René Barjavel retells the famous legend of King Arthur and the Knights of the Round Table from the perspective of Arthur's companion and guide, Merlin the Magician. While faithfully and poetically capturing the breadth of Arthur's travails, Barjavel also provides a keen insight into the psychology of its characters.</p>
+<p>L'Enchanteur, <em>or The Enchanter, has been one of the most popular books in the Francophone world for three decades. With brilliant clarity, verve, and humour, author René Barjavel retells the famous legend of King Arthur and the Knights of the Round Table from the perspective of Arthur's companion and guide, Merlin the Enchanter. While faithfully and poetically capturing the breadth of Arthur's travails, Barjavel also provides a keen insight into the psychology of its characters.</em></p>
 
-<p>Despite the popularity of Barjavel's tale, <em>The Magician</em> has never been translated into English. In the interest of disseminating it for her Anglophone companions, artist Pauline Petit has taken it upon herself to translate the entire novel, and make it available to a broader readership. The legend begins with chapter one, below.</p>
+<p>Despite the popularity of Barjavel's tale, <em>The Enchanter</em> has never been translated into English. In the interest of disseminating it for her Anglophone companions, artist Pauline Petit has taken it upon herself to translate the entire novel, and make it available to a broader readership. The legend begins with chapter one, below.</p>
 
 <figure>
   <a href="{{site.url}}/img/articles/enchanteur-part1/enchanteur.jpg" rel="shadowbox" title="The Enchanter">
   <img src="{{site.url}}/img/articles/enchanteur-part1/enchanteur.jpg"></a>
   <figcaption>
-    <em>The Magician</em> by René Barjavel <br />
+    <em>The Enchanter</em> by René Barjavel <br />
     Ed. Denoël, published by Folio <br />
     1984
   </figcaption>
