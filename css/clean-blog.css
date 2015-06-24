@@ -224,12 +224,14 @@ hr.small-dark {
 .intro-header .post-heading .meta a {
   color: white;
 }
+
+
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
-    font-size: 55px;
+    font-size: 40px;
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 .post-preview > a {
